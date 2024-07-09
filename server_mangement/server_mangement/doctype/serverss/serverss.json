@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-04 09:39:44.185440",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "servers",
+  "ip_adress",
+  "status",
+  "column_break_glas",
+  "expire_date",
+  "last_purchase_date",
+  "section_break_jgjy",
+  "site",
+  "section_break_bkmn",
+  "credentails"
+ ],
+ "fields": [
+  {
+   "fieldname": "servers",
+   "fieldtype": "Data",
+   "label": "Servers"
+  },
+  {
+   "fieldname": "ip_adress",
+   "fieldtype": "Data",
+   "label": "IP Adress"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nCancelled\nExpired"
+  },
+  {
+   "fieldname": "column_break_glas",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "expire_date",
+   "fieldtype": "Date",
+   "label": "Expire date"
+  },
+  {
+   "fieldname": "last_purchase_date",
+   "fieldtype": "Date",
+   "label": "Last Purchase Date"
+  },
+  {
+   "fieldname": "section_break_jgjy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "site",
+   "fieldtype": "Table",
+   "label": "Site",
+   "options": "Site Table"
+  },
+  {
+   "fieldname": "section_break_bkmn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "credentails",
+   "fieldtype": "Table",
+   "label": "Credentails",
+   "options": "Credentails"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-04 09:43:53.274470",
+ "modified_by": "Administrator",
+ "module": "server mangement",
+ "name": "serverss",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

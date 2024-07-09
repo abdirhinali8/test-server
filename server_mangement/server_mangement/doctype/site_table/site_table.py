@@ -1,0 +1,9 @@
+# Copyright (c) 2024, info@bulaal.so and contributors
+# For license information, please see license.txt
+
+# import frappe
+from frappe.model.document import Document
+
+
+class SiteTable(Document):
+	pass
